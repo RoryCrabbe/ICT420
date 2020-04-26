@@ -109,3 +109,21 @@ input[type="text"] {
     background: #0057A8;
     
 }
+.index p{
+  font-family: "Times New Roman", arial;
+  text-align:center;
+  color: #787878;
+}
+.index h1{
+  color:#004585;
+}
+.index h3{
+  color: #787878;
+}
+
+.index a{
+    color: blue;
+    text-align: left;
+    border: 0;
+    
+}

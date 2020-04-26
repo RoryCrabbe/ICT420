@@ -3,43 +3,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style3.css">
-    <title>Contact us!</title>
+    <link rel="stylesheet" href="../styles/style3.css">
+    <title>CONTACT-US</title>
   </head>
 
   <body>
-    <h1>Contact Us</h1>
+    <header>		
+      <ul>		
+        <li><a href="form.html">Contact Us</a></li>		
+        <li><a href="Lex-tv.html">Lex-TV</a></li>
+        <li><a href="LEXServ.html">LEXServ</a></li>
+        <li><a href="traffic.html">Traffic Updates</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+      </ul>
+      
+      <div class="logo_div">
+        <span><a href="../index.html"><img src="../images/lexington-logo.svg" alt=""></a></span>
+      </div>
+      <div class="welcome_div">
+        <h1 style="text-align:center;">Contact Us</h1>
+      </div>
+        
+    </header>	
     
 
-  <form action="scripts/action.php" method="post">
-    <label for="full-name">Enter your name: </label>
+  <form action="scripts/action.php" method="post" style="padding: 20px;">
+    <label for="full-name">Name: </label>
     <input type="text" name="full-name" id="full-name" required>
-
-    <label for="email">Enter your email address: </label>
+  <br>
+    <label for="email">Email: </label>
     <input type="text" name="email" id="email" required>
-  </form>
-
   <br>
 
-  <form action="scripts/action.php" method="post">
-    <label for="message">What would you like to tell us?: </label>
+    <label for="message">Message: </label>
     <textarea id="message" name="message" rows="5" cols="40">
     </textarea>
-
+    <br>
     <input type="submit" value="Submit">
-    </form>
+  </form>
 
-    		<aside class="Navigation">
-    		<p style="text-align:center;">
-			<ul>
-			
-			<li><a href="/ICT420/#">Home</a><br></li>
-			<li><a href="/ICT420/pages/jobs.html">Jobs, This link works!</a><br></li>
-			<li><a href="#">Traffic</a><br></li>
-			<li><a href="#">LEXServ</a><br></li>
-			<li><a href="#">Lex-TV</a><br></li>
-			</ul>
-			</aside>
+<footer>
+
+  <p style="text-align: center">This is for ICT420 and is my main mockup website. This website is a work in progress, please be kind.</p>
+  <br>
+
+</footer>
+    
 
   </body>
   </html>

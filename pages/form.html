@@ -8,48 +8,48 @@
   </head>
 
   <body>
-    <header>		
-      <ul>		
-      	<li><a href="https://rorycrabbe.github.io/ICT420/index.html">Home</a></li>
-        <li><a href="form.html">Contact Us</a></li>		
-        <li><a href="LEX-tv.html">Lex-TV</a></li>
-        <li><a href="LEXserv.html">LEXServ</a></li>
-        <li><a href="traffic.html">Traffic Updates</a></li>
-        <li><a href="jobs.html">Jobs</a></li>
-      </ul>
-      
-      <div class="logo_div">
-        <span><a href="../index.html"><img src="../images/lexington-logo.svg" alt=""></a></span>
+    <div class="grid">
+        <header>		
+          <ul>		
+            <li><a href="https://rorycrabbe.github.io/ICT420/index.html">Home</a></li>
+            <li><a href="form.html">Contact Us</a></li>		
+            <li><a href="LEX-tv.html">Lex-TV</a></li>
+            <li><a href="LEXserv.html">LEXServ</a></li>
+            <li><a href="traffic.html">Traffic Updates</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+          </ul>
+          
+          <div class="logo_div">
+            <span><a href="../index.html"><img src="../images/lexington-logo.svg" alt=""></a></span>
+          </div>
+          <div class="welcome_div">
+            <h1 style="text-align:center;">Contact Us</h1>
+          </div>
+              
+        </header>	
+          
+        <article>
+        <form action="scripts/action.php" method="post" style="padding: 20px;">
+          <label for="full-name">Name: </label>
+          <input type="text" name="full-name" id="full-name" required>
+        <br>
+          <label for="email">Email: </label>
+          <input type="text" name="email" id="email" required>
+        <br>
+
+          <label for="message">Message: </label>
+          <textarea id="message" name="message" rows="5" cols="40">
+          </textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+        </article>
+        <footer>
+
+          <p style="text-align: center">This is for ICT420 and is my main mockup website. This website is a work in progress, please be kind.</p>
+          <br>
+
+        </footer>
       </div>
-      <div class="welcome_div">
-        <h1 style="text-align:center;">Contact Us</h1>
-      </div>
-        
-    </header>	
-    
-
-  <form action="scripts/action.php" method="post" style="padding: 20px;">
-    <label for="full-name">Name: </label>
-    <input type="text" name="full-name" id="full-name" required>
-  <br>
-    <label for="email">Email: </label>
-    <input type="text" name="email" id="email" required>
-  <br>
-
-    <label for="message">Message: </label>
-    <textarea id="message" name="message" rows="5" cols="40">
-    </textarea>
-    <br>
-    <input type="submit" value="Submit">
-  </form>
-
-<footer>
-
-  <p style="text-align: center">This is for ICT420 and is my main mockup website. This website is a work in progress, please be kind.</p>
-  <br>
-
-</footer>
-    
-
-  </body>
+    </body>
   </html>
